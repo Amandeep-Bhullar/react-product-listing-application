@@ -8,7 +8,7 @@ const Product= (props)=>{
     }
 
     return(
-        <div>
+        <div className="">
             {name}
             <img src={imgUrl}></img>
             {price}
