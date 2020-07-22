@@ -8,11 +8,21 @@ const Product= (props)=>{
     }
 
     return(
-        <div className="">
-            {name}
-            <img src={imgUrl}></img>
-            {price}
-            <button type="button" onClick={showAlert}>Add to Cart</button>
+        <div className="border product-grid">
+            <div className="box">
+                <div>
+                {name}
+                </div>
+                <div>
+                <img src={imgUrl}></img>
+                </div>
+                <div>
+                {price}
+                </div>
+                <div>
+                <button type="button" onClick={showAlert}>Add to Cart</button>
+                </div>
+            </div>
         </div>
     )
 }

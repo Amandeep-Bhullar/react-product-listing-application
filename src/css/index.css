@@ -7,7 +7,8 @@
     --col-accent2-fg: #000000;
     --col-accent3:  mediumslateblue;
     --col-accent3-fg: #ffffff;
-    --col-action: firebrick;
+	--col-action: firebrick;
+	--col-grey:rgb(146, 143, 143);
 	--font-body: serif;
     --font-heading: sans-serif;
     --animations: 0.3s;
@@ -27,14 +28,27 @@ h1, h2, h3, h4, h5, h6 {
   h1 {
     font-size: 1.25em;
   }
+  .border{
+	  border-radius: var(--col-bg-fg) solid 2em;
 
+  }
+  .product-grid{
+	  text-align: center;
+	  display: grid;
+  }
+.box{
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: var(--col-grey);
+	border-color:  var(--col-bg-fg);
+}
   /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
   @media screen and (min-width: 40em) {
-  
+
 }
 
  
   /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
   @media screen and (min-width: 60em) {
-  
+	
   }

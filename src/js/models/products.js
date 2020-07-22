@@ -1,38 +1,45 @@
 const productList=[];
+import clothing from "img/men-fashion/clothing.jpg"
+import accessories from "img/men-fashion/accessories.jpg"
+import contemporary from "img/men-fashion/contemporary.jpg"
+import shoes from "img/men-fashion/shoes.jpg"
+import uniforms from "img/men-fashion/uniforms.jpg"
+import watches from "img/men-fashion/watches.jpg"
+
 productList.push({
     id:1,
     name:"shirt",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:clothing
 },
 {
     id:2,
-    name:"shoes",
+    name:"accessories",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:accessories
 },
 {
     id:3,
-    name:"shirt",
+    name:"contemporary",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:contemporary
 },
 {
     id:4,
-    name:"shirt",
+    name:"shoes",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:shoes
 },{
     id:5,
-    name:"shirt",
+    name:"uniforms",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:uniforms
 },
 {
     id:6,
-    name:"shirt",
+    name:"watches",
     price:50,
-    imgUrl:"src/img/men-fashion/clothing.jpg"
+    imgUrl:watches
 });
 
 export default productList;
